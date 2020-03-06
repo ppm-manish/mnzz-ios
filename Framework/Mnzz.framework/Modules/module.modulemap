@@ -1,0 +1,11 @@
+framework module Mnzz {
+  umbrella header "Mnzz.h"
+
+  export *
+  module * { export * }
+}
+
+module Mnzz.Swift {
+    header "Mnzz-Swift.h"
+    requires objc
+}
